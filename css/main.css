@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url("../fonts/alexbrush-regular-webfont.woff" ) format('woff');
+    src: url("../fonts/alexbrush-regular-webfont.woff2" ) format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('../fonts/webfontkit-20200527-205857/leaguespartan-bold-webfont.woff2') format('woff2'),
+    url('../fonts/webfontkit-20200527-205857/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body
+{
+    font-family: league_spartanbold;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.main{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/drinking-glass-on-top-of-table-669216.jpg");
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    vertical-align:middle;
+    text-align: center;line-height: 300px;
+}
+
+.headerTitle{
+    font-family: 'alex_brushregular';
+    height: 70px;
+    width: 200px;
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+}
+
+.introduction{
+    color:#2F4056;
+    width: 800px;
+    margin: auto;
+}
+
+.title{
+    /*text-align: left;*/
+    font-size: 35px;
+}
+
+.content{
+    text-align: center;
+    width: 1200px;
+    font-size: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #595d68;
+}
+
+.midImages img{
+    width: 330px;
+    height: 300px;
+    padding: 10px;
+}
+
+.contentImage{
+    display: flex;
+    flex-direction: row;
+    background: #eeeeee;
+    font-size: 28px;
+    border-radius: 10px;
+    color: #595d68;
+}
+
+.contentImage .before {
+    width: 700px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 10px
+}
+.contentImage .after{
+    width: 480px;
+    margin-top: 30px;
+}
+.contentImage .after img{
+    width: 400px;
+    height: 430px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+
